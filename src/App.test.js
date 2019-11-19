@@ -7,6 +7,6 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
 });
 
-test('bad test', () => {
-  expect(2 + 2).toBe(0);
+test('test example', () => {
+  expect(2 + 2).toBe(4);
 });
